@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/blackcriss/godesde0/ejercicios"
+	"github.com/blackcriss/godesde0/files"
 )
 
 func main() {
@@ -32,5 +32,11 @@ func main() {
 
 	iteraciones.Iterar()*/
 
-	ejercicios.PedirNumero()
+	//fmt.Println(ejercicios.TabladeMultiplicar())
+
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	//files.LeoArchivo()
+
+	files.LeoArchivo1()
 }
