@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/blackcriss/godesde0/files"
+	e "github.com/blackcriss/godesde0/ejer_interfaces"
+	"github.com/blackcriss/godesde0/modelos"
 )
 
 func main() {
@@ -38,5 +39,23 @@ func main() {
 	//files.SumaTabla()
 	//files.LeoArchivo()
 
-	files.LeoArchivo1()
+	//files.LeoArchivo1()
+
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlice()
+	//arreglos_slices.Capacidad()
+
+	//mapas.MostrarMapas()
+
+	//users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }
